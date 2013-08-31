@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6115DC4717C8D106000F909F /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6115DC4517C8D106000F909F /* server.cpp */; };
+		6115DC4A17C8DA88000F909F /* connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6115DC4817C8DA88000F909F /* connection.cpp */; };
+		6115DC4C17C8E81D000F909F /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6115DC4B17C8E81D000F909F /* libboost_system-mt.dylib */; };
+		611C41DC17C3D8A400552192 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611C41DB17C3D8A400552192 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		611C41D617C3D8A400552192 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6115DC4517C8D106000F909F /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		6115DC4617C8D106000F909F /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		6115DC4817C8DA88000F909F /* connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connection.cpp; sourceTree = "<group>"; };
+		6115DC4917C8DA88000F909F /* connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection.h; sourceTree = "<group>"; };
+		6115DC4B17C8E81D000F909F /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_system-mt.dylib"; path = "/opt/local/lib/libboost_system-mt.dylib"; sourceTree = "<absolute>"; };
+		611C41D817C3D8A400552192 /* cash-drawer-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cash-drawer-server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611C41DB17C3D8A400552192 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611C41D517C3D8A400552192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6115DC4C17C8E81D000F909F /* libboost_system-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6115DC4D17C8E83B000F909F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6115DC4B17C8E81D000F909F /* libboost_system-mt.dylib */,
+			);
+			name = Frameworks;
+			path = "cash-drawer-server";
+			sourceTree = "<group>";
+		};
+		611C41CF17C3D8A400552192 = {
+			isa = PBXGroup;
+			children = (
+				611C41DA17C3D8A400552192 /* cash-drawer-server */,
+				6115DC4D17C8E83B000F909F /* Frameworks */,
+				611C41D917C3D8A400552192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		611C41D917C3D8A400552192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611C41D817C3D8A400552192 /* cash-drawer-server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611C41DA17C3D8A400552192 /* cash-drawer-server */ = {
+			isa = PBXGroup;
+			children = (
+				611C41DB17C3D8A400552192 /* main.cpp */,
+				6115DC4617C8D106000F909F /* server.h */,
+				6115DC4517C8D106000F909F /* server.cpp */,
+				6115DC4917C8DA88000F909F /* connection.h */,
+				6115DC4817C8DA88000F909F /* connection.cpp */,
+			);
+			path = "cash-drawer-server";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611C41D717C3D8A400552192 /* cash-drawer-server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611C41E117C3D8A400552192 /* Build configuration list for PBXNativeTarget "cash-drawer-server" */;
+			buildPhases = (
+				611C41D417C3D8A400552192 /* Sources */,
+				611C41D517C3D8A400552192 /* Frameworks */,
+				611C41D617C3D8A400552192 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cash-drawer-server";
+			productName = "cash-drawer-server";
+			productReference = 611C41D817C3D8A400552192 /* cash-drawer-server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611C41D017C3D8A400552192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Albisigns;
+			};
+			buildConfigurationList = 611C41D317C3D8A400552192 /* Build configuration list for PBXProject "cash-drawer-server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 611C41CF17C3D8A400552192;
+			productRefGroup = 611C41D917C3D8A400552192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611C41D717C3D8A400552192 /* cash-drawer-server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611C41D417C3D8A400552192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611C41DC17C3D8A400552192 /* main.cpp in Sources */,
+				6115DC4717C8D106000F909F /* server.cpp in Sources */,
+				6115DC4A17C8DA88000F909F /* connection.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		611C41DF17C3D8A400552192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		611C41E017C3D8A400552192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		611C41E217C3D8A400552192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		611C41E317C3D8A400552192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611C41D317C3D8A400552192 /* Build configuration list for PBXProject "cash-drawer-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611C41DF17C3D8A400552192 /* Debug */,
+				611C41E017C3D8A400552192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611C41E117C3D8A400552192 /* Build configuration list for PBXNativeTarget "cash-drawer-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611C41E217C3D8A400552192 /* Debug */,
+				611C41E317C3D8A400552192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611C41D017C3D8A400552192 /* Project object */;
+}
